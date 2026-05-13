@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Logo from '../assets/logo.jpg';
+// import Logo from '../assets/logo.jpg';
 import Navbar from './Navbar1';
 import Footer from './Footer';
 import { Player } from '@lottiefiles/react-lottie-player';

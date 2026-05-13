@@ -4,7 +4,7 @@ import AI from './../assets/artificial_intelligence.json';
 import './../styles/About.css';
 
 // تأكدي من وجود الصور في مجلد assets داخل src
-import officeImg from '../assets/About.jpg'; 
+// import officeImg from '../assets/About.jpg'; 
 
 const AboutPage = () => {
     return (

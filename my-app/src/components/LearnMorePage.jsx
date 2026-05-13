@@ -224,7 +224,7 @@
 
 
 import React from 'react';
-import Logo from '../assets/our.jpg';
+// import Logo from '../assets/our.jpg';
 import icon from '../icon/icons8-community-50.png';
 import { useNavigate } from 'react-router-dom';
 // import Lottie from 'lottie-react';
