@@ -1,0 +1,72 @@
+.how-it-works {
+    padding: 120px 300px;
+    /* background-color: #FDFFE14D; */
+    background: radial-gradient(
+        circle at top,
+        #2a2a2a,
+        #0f0f0f
+    );
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 40px;
+    font-weight: 400;
+    /* color: #333; */
+    color: #f5f5dc;
+    margin-bottom: 0px;
+    
+}
+.how-it-works p{
+    color: #f5f5dcb2;
+}
+
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 40px;
+}
+
+.step-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* background-color: white; */
+    background-color: #f5f5dc;
+    min-height: 250px;
+    margin-top: 60px;
+}
+.step-card:hover{
+    border: 1px solid #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.step-card h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #191418;
+    text-align: left;
+}
+
+.step-card p {
+    color: #666;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+.step-icon {
+    width: 50px;
+    height: 50px;
+    background: #1a1a1a;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+

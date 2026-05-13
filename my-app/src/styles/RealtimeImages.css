@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Courier+Prime:wght@400;700&display=swap');
+
+.realtime-page-images {
+    min-height: 100vh;
+    background: #FDFFE14D;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* padding: 40px 20px; */
+    gap: 28px;
+}
+
+.realtime-content-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 28px;
+    width: 100%;
+}
+
+
+.realtime-card-images {
+    background: #2c1810;
+    border-radius: 16px;
+    padding: 36px 48px;
+    width: 100%;
+    max-width: 620px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.realtime-title-images {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FDFFE1;
+    text-align: center;
+    margin: 0;
+}
+
+.realtime-divider-images {
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    margin: 0;
+}
+
+.rt-btn-images {
+    background: #FDFFE1;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 80px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.rt-btn-images:hover {
+    /* background: #1c2f4a; */
+    transform: translateY(-2px);
+}
+
+.rt-btn-stop-images {
+    background: #c0392b;
+    color: #fff;
+    padding: 12px 60px;
+    font-size: 16px;
+}
+
+.rt-btn-stop-images:hover {
+    background: #a93226;
+}
+
+.realtime-camera-container-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.realtime-feed-images {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 280px;
+    object-fit: cover;
+}
+
+/* Result Card */
+.realtime-result-card-images {
+    background: #2c1810;
+    border-radius: 16px;
+    padding: 28px 48px;
+    width: 100%;
+    max-width: 500px;
+    min-height: 120px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.realtime-result-label-images {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #FDFFE1;
+    text-align: center;
+    margin: 0;
+}
+
+.realtime-result-images {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FDFFE1;
+    text-align: center;
+    line-height: 1.7;
+    margin: 0;
+    min-height: 40px;
+}
+
+.realtime-page-images .navbar .btn-primary {
+    
+    background-color: #2c1810;
+    color: #FDFFE1;
+}

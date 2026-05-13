@@ -1,0 +1,322 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+
+
+.help-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: radial-gradient(
+        circle at top,
+        #2a2a2a,
+        #0f0f0f
+    );
+
+    padding: 80px 120px;
+    min-height: calc(100vh - 60px); 
+    gap: 40px;
+}
+
+
+
+.help-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.help-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FDFFE1;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-left: 35px;
+}
+
+.help-desc {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    color: #fdffe19f;
+    line-height: 1.75;
+    margin-bottom: 36px;
+    font-weight: 300;
+    max-width: 550px;
+    padding-left: 40px;
+}
+
+
+.help-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 280px;
+    padding-left: 35px;
+}
+
+.help-btn1 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 24px;
+    background: #f5f5dc;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    text-align: left;
+}
+.help-btn2 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 24px;
+    background: #f5f5dc;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    text-align: left;
+    
+}
+
+
+.help-btn1:hover,
+.help-btn1.active {
+    background: #252525;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+.help-btn2:hover,
+.help-btn2.active {
+    background: #f9f9f9da;
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+.btn-icon {
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+
+.help-page {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .help-section {
+        flex-direction: column;
+        padding: 48px 24px;
+        text-align: center;
+    }
+
+    .help-title {
+        font-size: 32px;
+    }
+
+    .help-buttons {
+        max-width: 100%;
+    }
+
+    .help-illustration {
+        display: none;
+    }
+}
+
+.help-image img {
+    max-width: 650px;
+    border-radius: 50px;
+    
+    margin-right: 30px;
+}
+.help-image img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+/* .help-page {
+    min-height: 100vh;
+    
+} */
+
+/* .help-page .navbar {
+    background: #f5f0e8;
+    box-shadow: none;
+    border-bottom: 1px solid #e0d8cc;
+}
+
+.help-page .navbar .logo,
+.help-page .navbar h5,
+.help-page .navbar .nav-links li {
+    color: #2c1810;
+}
+
+.help-page .navbar .btn-primary {
+    background: #c8921a;
+    color: #fff;
+} */
+
+.help-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #FDFFE14D;
+    padding: 80px 120px;
+    min-height: calc(100vh - 60px);
+    gap: 40px;
+}
+
+.help-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #2c1810;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-left: 35px;
+}
+
+.help-desc {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    color: #7a6a5a;
+    line-height: 1.75;
+    margin-bottom: 36px;
+    font-weight: 300;
+    max-width: 550px;
+    padding-left: 40px;
+}
+
+.help-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 280px;
+    padding-left: 35px;
+}
+
+.help-btn1 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 24px;
+    background: #c8911a36;
+    color: #2c1810;
+    border: none;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+    text-align: left;
+    box-shadow: 0 4px 16px rgba(200, 146, 26, 0.3);
+}
+
+.help-btn2 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 24px;
+    background: #2c1810;
+    color: #f0eae0;
+    border: none;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+    text-align: left;
+    box-shadow: 0 4px 16px rgba(44, 24, 16, 0.2);
+}
+
+.help-btn1:hover {
+    background: #d8a22e00;
+    transform: translateY(-2px);
+}
+
+.help-btn2:hover {
+    background: #4a2a1a;
+    transform: translateY(-2px);
+}
+
+.btn-icon {
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+
+@media (max-width: 768px) {
+    .help-section {
+        flex-direction: column;
+        padding: 48px 24px;
+        text-align: center;
+    }
+
+    .help-title {
+        font-size: 32px;
+    }
+
+    .help-buttons {
+        max-width: 100%;
+    }
+}
+
+
+.help-page .navbar .btn-primary {
+    
+    background-color: #c8911a36;
+    color: #2c1810;
+}
+
+/* footer{
+    background-color: #2c1810;
+    min-height: 100%;
+    color: #FDFFE1;
+    
+}
+.footer .footer-links .footer-link{
+    color: #FDFFE1;
+}
+footer h4{
+    color: #FDFFE1;
+}
+
+.divider{
+    color: #FDFFE1;
+}
+
+.imgFooter{
+    color: #FDFFE1;
+} */

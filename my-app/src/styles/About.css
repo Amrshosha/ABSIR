@@ -1,0 +1,155 @@
+
+
+/* 1. الحاوية الرئيسية: ترتب الأقسام رأسياً (تحت بعض) */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+/* --- الجزء العلوي: الهيدر --- */
+.about-header {
+    text-align: center;
+    padding: 0 0 0 240px;
+}
+
+.about-header h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.main-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* --- الجزء الثاني: المهمة (هنا الصورة يسار والنص يمين) --- */
+.mission-content {
+    display: flex;
+    flex-direction: row; /* يضع الصورة يسار والنص يمين */
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-side {
+    flex: 1; /* يأخذ مساحة مرنة */
+}
+
+.image-wrapper {
+    /* width: 100%; */
+    min-height: 400px;
+    background: #f5f5f5;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 1px solid #ddeaf8;
+}
+
+.image-wrapper:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.image-wrapper img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.text-wrapper {
+    flex: 1.2; /* النص يأخذ مساحة أكبر قليلاً */
+    text-align: left;
+}
+
+.text-wrapper h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.description-text p {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* --- الجزء الثالث: القيم (Values) --- */
+.values-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 أعمدة بجانب بعضها */
+    gap: 30px;
+    text-align: center;
+}
+
+.value-card {
+    padding: 10px;
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #fffde7; /* لون أصفر فاتح جداً */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    margin: 0 auto 15px;
+}
+
+.value-card h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.value-card p {
+    font-size: 0.9rem;
+    color: #777;
+    line-height: 1.4;
+}
+
+
+.stats-footer {
+    background-color: #FDFFE14D; 
+    border: 1px solid #f9f2d8;
+    border-radius: 30px;
+    padding: 50px 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    gap: 60px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.stat-label {
+    color: #888;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+

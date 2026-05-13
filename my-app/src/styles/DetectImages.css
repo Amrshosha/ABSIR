@@ -1,0 +1,89 @@
+.container-detectimages{
+    display: grid;
+    gap: 10px;
+}
+
+.detecti-page {
+  min-height: 100vh;
+  background-color: #FDFFE14D; 
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+  justify-content: space-between;
+  /* padding-top: 60px; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+
+.detecti-title-box {
+  width: 340px;
+  background-color: #2c1810;
+  /* background: radial-gradient(
+        circle at top,
+        #2a2a2a,
+        #0f0f0f
+  ); */
+  padding: 15px 50px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+.detecti-title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #FDFFE1;
+  /* text-transform: lowercase; */
+}
+
+
+.detecti-card {
+  width: 550px;
+  background-color: #2c1810;
+  padding: 40px 20px;
+  margin: 20px auto;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+
+.detecti-btn {
+  display: block;
+  width: 65%;
+  margin: 15px auto;
+  padding: 14px;
+  background-color: #FDFFE1; 
+  /* background-color: transparent; */
+  /* color: #fff; */
+  /* border: 1px solid #fff; */
+  /* color: #2c1810; */
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.detecti-btn:hover {
+  /* background-color: white; */
+  /* color: #2c1810; */
+  /* background-color: #4a2a1a; */
+  transform: scale(1.05);
+}
+
+.detecti-btn:active {
+  transform: scale(0.97);
+}
+
+.detecti-page .navbar .btn-primary {
+    
+    background-color: #2c1810;
+    color: #FDFFE1;
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Courier+Prime:wght@400;700&display=swap');
+
+.upload-text-page {
+    min-height: 100vh;
+    background: #FDFFE14D;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* padding: 40px 20px; */
+    gap: 28px;
+}
+.upload-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 28px;
+    width: 100%;
+}
+
+
+/* Upload Card */
+.upload-text-card {
+    background: #2c1810;
+    border-radius: 16px;
+    padding: 36px 48px;
+    width: 100%;
+    max-width: 620px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.upload-text-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FDFFE1;
+    text-align: center;
+    margin: 0;
+}
+
+.upload-text-divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0;
+}
+
+.upload-text-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.ut-btn {
+    background: #FDFFE1;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 36px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+    text-align: center;
+    display: inline-block;
+}
+
+.ut-btn:hover {
+    /* background: white; */
+    transform: translateY(-2px);
+}
+
+.ut-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.file-name {
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+    margin: 0;
+}
+
+/* Result Card */
+.result-text-card {
+    background: #fdf6e3;
+    border-radius: 16px;
+    padding: 28px 48px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.result-label {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin: 0;
+}
+
+.result-text {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.upload-text-page .navbar .btn-primary {
+    
+    background-color: #2c1810;
+    color: #FDFFE1;
+}
